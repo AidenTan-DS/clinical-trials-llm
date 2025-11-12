@@ -1,7 +1,7 @@
 NCT ID,original intervention,combined_std_treatment,missing_treatments,accuracy
-NCT0000403,"Drug: interferon alfa-2b | Drug: zidovudine","interferon alfa-2b, zidovudine","",1.00
-NCT0000410,"Drug: sargramostim | Drug: aldesleukin","sargramostim, aldesleukin","",1.00
-NCT0000425,"Drug: fenretinide | Drug: ivig","fenretinide, ivig","",1.00
-NCT0000607,"Drug: trabectedin | Drug: il2","trabectedin, il2","il2",0.50
-NCT0000601,"Drug: ad5cmv-p53 gene | Drug: interferon alfa-2a","ad5cmv-p53 gene, interferon alfa-2a","",1.00
+NCT00000433,"DRUG: Anti-Tumor Necrosis Factor","infliximab, placebo group receiving no active treatment","DRUG: Anti-Tumor Necrosis Factor","0.00%"
+NCT00000603,"PROCEDURE: stem cell transplantation","unrelated donor umbilical cord blood transplantation, grafts with more than 2","","100.00%"
+NCT00000626,"DRUG: Vinblastine sulfate | DRUG: Dacarbazine | DRUG: Filgrastim | DRUG: Bleomycin sulfate | DRUG: Doxorubicin hydrochloride","adriamycin, bleomycin, vinblastine, dacarbazine, filgrastim, filgrastim","DRUG: Doxorubicin hydrochloride","80.00%"
+NCT00000687,"DRUG: Interferon alfa-2a | DRUG: Zidovudine","zidovudine, retrovir, recombinant alpha-2a interferon","","100.00%"
+NCT00000801,"DRUG: Filgrastim | DRUG: Vincristine sulfate | DRUG: Doxorubicin hydrochloride | DRUG: Cyclophosphamide | DRUG: Cytarabine | DRUG: Dexamethasone","nan, zidovudine, didanosine, filgrastim","DRUG: Vincristine sulfate, DRUG: Doxorubicin hydrochloride, DRUG: Cyclophosphamide, DRUG: Cytarabine, DRUG: Dexamethasone","16.67%"
 

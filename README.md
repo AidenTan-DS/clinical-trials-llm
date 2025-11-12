@@ -64,6 +64,15 @@ Provided the first **AI-normalized rare-cancer clinical trial dataset**, support
 
 ---
 
-## 📂 Repository Structure  
+## 👨‍🔬 Author  
+
+**Xingye (Aiden) Tan**  
+🎓 M.S. in Data Science @ University of Washington  
+📫 [xtan4@uw.edu](mailto:xtan4@uw.edu)  
+🌐 [LinkedIn](https://www.linkedin.com/in/xingye-tan-817b7a225) · [GitHub](https://github.com/tanxingye)
+
+---
+
+⭐ *If you find this project useful or inspiring, please consider giving it a star!*
 
 

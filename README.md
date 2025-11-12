@@ -9,9 +9,16 @@
 
 ## 🩺 Overview  
 
-This project develops a **Large Language Model (LLM)-driven ETL and normalization pipeline** for oncology clinical trial data, enabling **rare-cancer treatment recommendation** and cross-trial comparison.  
+This project is part of a broader effort to develop a **rare-cancer treatment recommendation system** that learns from historical oncology trial data.  
+To make such a system possible, we first needed to **rapidly collect** and **standardize** large-scale clinical trial information.  
+However, most trial records on [ClinicalTrials.gov](https://clinicaltrials.gov) are **unstructured, inconsistently formatted, and difficult to compare**, making manual extraction slow and unreliable.
 
-The pipeline integrates **data extraction**, **cleaning**, **normalization**, and **semantic matching** into an end-to-end system — transforming unstructured ClinicalTrials.gov text into a structured, queryable knowledge base for downstream research and model training.
+To overcome these challenges, we built a **Large Language Model (LLM)-powered data pipeline** that automates the entire process of:
+1. **Rapid data acquisition** — queried and summarized **22K+ clinical trials** via the **HuggingChat Nous API**, enabling large-scale retrieval in hours instead of weeks.  
+2. **Normalization and cleaning** — standardized cancer and treatment names using multi-stage NLP (Fuzzy Matching, Edit Distance, TF-IDF Cosine Similarity, and Word2Vec Embeddings).  
+3. **Knowledge base construction** — integrated cleaned data into a structured, queryable database for cross-trial comparison and recommendation readiness.
+
+By transforming raw ClinicalTrials.gov text into a **consistent, machine-readable knowledge base**, the pipeline lays the foundation for a **rare-cancer treatment recommendation system**—allowing insights from common cancers to be effectively transferred to rare ones.
 
 ---
 
